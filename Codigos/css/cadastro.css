@@ -1,0 +1,122 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-cadastro{
+    text-align: center;
+}
+header {
+    background-color: #1B632B;
+    width: 100%;
+    display: grid;
+  justify-content: center;
+    
+}
+
+.logo-principal {
+margin: 5px;
+padding: 3px;
+text-align: center;
+
+}
+.inpInfos{
+    margin: auto;
+    width: 80%;
+}
+.inpInfos input{
+    width: 100%;
+    border-radius: 5px;
+    border: black 0px solid;
+    height: 1.5rem;
+}
+.inpInfos .lblInfos{
+    text-align: left;
+}
+.lblInfos{
+    height: 20px;
+}
+.inpIcon{
+    display: flex;
+    border-radius: 5px;
+    border: 2px gray solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.inpIcon i{
+    border-radius: 5px;
+    width: 2rem;
+    margin: auto;
+
+}
+.btnCadastrar{
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #1B632B;
+    color: black;
+    height: 2rem;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: bold;
+    width: 80%;
+}
+
+    .btnGoogleFacebook {
+        display: flex;
+    
+    }
+    
+    .btnGoogleFacebook {
+        margin-top: 2cap;
+        justify-content: center;    
+    }
+    
+    .btnGoogleFacebook button {
+        width: 40%;
+        height: 3cap;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        position: relative;
+        transition: background-color 0.5s ease;
+        margin: 5px;
+    }
+    .btnFacebook{
+        background-color: #503CCA;
+    }
+    .btnFacebook:active{
+        background-color: #2f1f96;
+    }
+    .btnGoogle{
+        background-color: white;
+    }
+    .btnGoogle button:active{
+        background-color: rgb(226, 226, 226);
+    }
+footer{
+    width: 100%;
+    background-color: #1B632B;
+    height: 50px;
+    position: fixed ;
+    right: 0;
+    bottom: 0;
+}   
+.rodape{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.rodape img{
+    display: inline-flex;
+    padding: 25px;
+    padding-top: 5px;
+}

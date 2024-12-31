@@ -1,0 +1,53 @@
+@media (min-width: 320px) and (max-width: 1024px) {
+    .btnGoogleFacebook {
+        display: flex;
+
+    }
+
+    .btnGoogleFacebook {
+        margin-top: 2cap;
+        justify-content: center;    
+    }
+
+    .btnGoogleFacebook button {
+        width: 40%;
+        height: 3cap;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        position: relative;
+        transition: background-color 0.5s ease;
+        margin: 5px;
+    }
+    .btnFacebook{
+        background-color: #503CCA;
+    }
+    .btnFacebook:active{
+        background-color: #2f1f96;
+    }
+    .btnGoogle{
+        background-color: white;
+    }
+    .btnGoogle button:active{
+        background-color: rgb(226, 226, 226);
+    }
+
+
+    .btnGoogleFacebook svg {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+    .btnGoogleFacebook h4 {
+        flex-grow: 1;
+        text-align: center;
+    }
+    .infoCadastro h4{
+        text-align: center;
+    }
+}

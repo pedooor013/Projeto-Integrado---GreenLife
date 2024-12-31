@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/info-desafio.css">
+    <title>GreenLife</title>
+</head>
+
+<body>
+    <header>
+        <a href="greeninicio.php"><img src="imagens/GreenLife-Sem-Fundo-Sem-Escrita 1.png" alt="Logo do GreenLife"
+                class="logo-principal"><a>
+    </header>
+    <div class="titulo">
+        <h2>RECICLE LIXO</h2>
+        <hr width="70%" 0.1px>
+    </div>
+    <div class="img-desafio">
+        <div><img src="imagens/logoDesafioRecicle.png" alt=""></div>
+    </div>
+    
+    <!--Informaçoes sobre o desafio-->
+    
+    <div class="infosDesafio">
+        <div class="infoPrincipais">
+            <div class="pontos">
+                <img src="imagens/logopontos.png" alt="Icon de pontos">
+                <h3>10</h3>
+            </div>
+                <h2>RECICLE</h2>
+                <img src="imagens/logofeed.png" alt="botao para o feedback" class="btnFeedback">
+        </div>
+        <h4 class="descricaoDesafio">
+            O participante deve coletar 10 kg de resíduos recicláveis (plásticos, papéis, vidros e metais) e reduzir o descarte transformando ao menos três itens em objetos úteis ou decorativos, como vasos e porta-canetas. O processo deve ser registrado em um diário, refletindo sobre o impacto das ações de reciclagem e os aprendizados na reutilização e redução de desperdício.
+    </div>
+    <hr width="70%" 0.1px>
+    <div class="btnParticipar">
+        <form method="POST" action="../Codigos/php/adicionarPontos.php">
+            <input type="hidden" name="usuario_id" value="1">
+            <input type="submit" name="Participar" class="btnParticipar">
+        </form>
+        <a href="../Codigos/feedback.html">
+            <input type="submit" name="Participar" class="btnParticipar">
+        </a>
+    </div>
+    <div class="spacer"></div>
+    <footer>
+        <div class="rodape">
+            <a href="greeninicio.php"><img src="imagens/logoinicio.png" alt="home"></a>
+            <a href="greenDesafios.html"><img src="imagens/logodesafio.png" alt="desafio"> </a>
+            <a href="blog.html"><img src="imagens/logoblog.png" alt="blog"></a>
+            <a href="mapa.html"><img src="imagens/logomapa.png" alt="mapa"></a>
+            <a href="php/perfil.php"><img src="imagens/logoperfil.png" alt="pessoal"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
